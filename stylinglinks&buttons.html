@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors and designing</title>
+    <style>
+        .container{
+            background-color: rgb(238, 162, 134);
+            border: 3px solid rgb(58, 3, 12);
+            padding: 34px;
+            margin: 34px auto;
+            width: 600px;
+        }
+        a{
+            text-decoration: none;
+            /* background-color: salmon; */
+        }
+        a:hover{
+            color: black;
+            background-color: rgb(216, 27, 27);
+            
+        }
+        a:visited{
+            background-color:  rgb(236, 189, 34);
+        }
+        a:active{
+            background-color:  rgb(5, 5, 94);
+        }
+        .btn{
+            background-color: rgb(48, 3, 30);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            color: salmon;
+            font-size: 13px;
+        }
+        .btn:hover{
+            color: black;
+            background-color: rgb(216, 27, 27);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>
+            This is Jeba
+        </h3>
+        <P>
+            I've graduated from AUST. I've completed my SSC and HSC from Viqarunnisa Noon School and College .
+        </P>
+        <a href="https://www.yahoo.com" class="btn" >Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
